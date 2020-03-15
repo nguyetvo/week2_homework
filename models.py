@@ -81,7 +81,6 @@ class Category:
             print('ERROR BY INSERT:', err)
 
 class Product:
-    #def __init__(self, cat_id, name, url, parent_id, product_id, price, category_name):
     def __init__(self, cat_id, name, url, parent_id, product_id, price, category_name):
         self.cat_id = cat_id
         self.name = name
@@ -244,7 +243,7 @@ def get_product(category, save_db=False):
 # rồi chạy vòng for:
 #for sp in get_main_categories(save_db=False):
 #    get_product(sp,save_db=True)
-# rồi select xem thành phẩm ^^
+# select xem thành phẩm
 
 #get_main_categories (save_db=True)
 #print(select_all('categories'))
